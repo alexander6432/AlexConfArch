@@ -22,7 +22,7 @@ return {
 
     local opts = {
       options = {
-        theme = "dracula",
+        theme = "tokyonight",
         component_separators = { left = "", right = "" },
         section_separators = { left = "", right = "" },
         globalstatus = vim.o.laststatus == 3,

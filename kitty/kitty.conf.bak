@@ -1174,7 +1174,7 @@ font_family      JetBrainsMono Nerd Font
 #: Color scheme {{{
 
 # foreground #dddddd
-# background #000111
+ background #000111
 
 #: The foreground and background colors.
 
@@ -2599,9 +2599,3 @@ background_blur 0
 
 #: }}}
 
-
-
-# BEGIN_KITTY_THEME
-# Tokyo Night Storm
-include current-theme.conf
-# END_KITTY_THEME
