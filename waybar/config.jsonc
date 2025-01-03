@@ -203,11 +203,13 @@
       "firefox": "󰈹",
       "gimp": "",
       "google-chrome": "",
+      "inkscape": "",
       "kitty": "󰞷",
       "krita": "",
       "libreoffice": "󰏆",
       "nautilus": "󰀼",
       "org.gnome.Loupe": "",
+      "pentablet": "",
       "nm-connection-editor": "󱚾",
       "org.gnome.FileRoller": "󰗄",
       "org.libretro.RetroArch": "󰊖",
@@ -220,7 +222,8 @@
       "title<htop>": "",
       "title<.*pacman.*>": "󰮯",
       "title<.*yay.*>": "󱑟",
-      "title<.*flatpak.*>": ""
+      "title<.*flatpak.*>": "",
+      "title<.*yazi.*>": "󰀼"
     },
     "format-icons": {
       // "urgent": "󰀨",
