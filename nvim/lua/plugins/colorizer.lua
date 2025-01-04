@@ -13,7 +13,7 @@ return {
         hsl_fn = false,
         css = false,
         css_fn = false,
-        mode = "foreground",
+        mode = "background",
       },
     }, { mode = "background" })
   end,
