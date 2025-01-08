@@ -1,3 +1,10 @@
+# Autoiniciar Zellij si está disponible
+#if command -v zellij &>/dev/null; then
+  # Evitar bucles si Zellij ya está corriendo dentro de Zellij
+#  if [ -z "$ZELLIJ" ]; then
+#    zellij attach || zellij
+#  fi
+#fi
 
 #Iniciar
 fastfetch -c ~/.config/fastfetch/basic.jsonc
@@ -138,3 +145,4 @@ function y() {
 	fi
 	rm -f -- "$tmp"
 }
+
