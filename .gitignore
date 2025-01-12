@@ -1,5 +1,6 @@
 Code/
 GIMP/
+google-chrome/
 dconf/
 evolution/
 gnome-session/
@@ -22,3 +23,4 @@ kritarc
 user-dirs.dirs
 user-dirs.locale
 .gsd-keyboard.settings-ported
+mimeapps.list
