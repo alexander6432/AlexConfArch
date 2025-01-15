@@ -21,6 +21,7 @@ yay/
 QtProject.conf
 kritadisplayrc
 kritarc
+pavucontrol.ini
 user-dirs.dirs
 user-dirs.locale
 .gsd-keyboard.settings-ported
