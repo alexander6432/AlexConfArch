@@ -18,11 +18,12 @@ pulse/
 systemd/
 vlc/
 yay/
-QtProject.conf
 kritadisplayrc
 kritarc
+LICENSE
+mimeapps.list
 pavucontrol.ini
+QtProject.conf
 user-dirs.dirs
 user-dirs.locale
 .gsd-keyboard.settings-ported
-mimeapps.list
