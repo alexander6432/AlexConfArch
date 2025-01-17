@@ -30,7 +30,7 @@ find_position = { fg = "#bb9af7", bg = "reset", bold = true, italic = true }
 
 # Marker
 marker_copied = { fg = "#9ece6a", bg = "#9ece6a" }
-marker_cut = { fg = "#e0af68", bg = "#f7768e" }
+marker_cut = { fg = "#f7768e", bg = "#f7768e" }
 marker_marked = { fg = "#7aa2f7", bg = "#7dcfff" }
 marker_selected = { fg = "#e0af68", bg = "#e0af68" }
 
