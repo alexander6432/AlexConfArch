@@ -37,7 +37,7 @@ return {
       -- adjusts spacing to ensure icons are aligned
       nerd_font_variant = "mono",
       kind_icons = {
-        Text = "󰉿",
+        Text = "",
         Method = "",
         Function = "󰊕",
         Constructor = "󰒓",
@@ -47,26 +47,26 @@ return {
         Property = "󰖷",
 
         Class = "",
-        Interface = "󰉺",
-        Struct = "",
+        Interface = "",
+        Struct = "󰆼",
         Module = "󰅩",
 
-        Unit = "",
+        Unit = "",
         Value = "󰦨",
         Enum = "",
-        EnumMember = "󰖆",
+        EnumMember = "",
 
         Keyword = "",
         Constant = "󰏿",
 
-        Snippet = "",
+        Snippet = "󱄽",
         Color = "󰏘",
         File = "󰈔",
-        Reference = "",
+        Reference = "󰬲",
         Folder = "󰉋",
         Event = "󱐋",
-        Operator = "",
-        TypeParameter = "",
+        Operator = "󰪚",
+        TypeParameter = "󰬛",
       },
     },
     completion = {
