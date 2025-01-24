@@ -38,7 +38,7 @@ return {
       nerd_font_variant = "mono",
       kind_icons = {
         Text = "",
-        Method = "",
+        Method = "󰊕",
         Function = "󰊕",
         Constructor = "󰒓",
 
@@ -108,11 +108,39 @@ return {
       default = { "lsp", "path", "snippets", "buffer", "copilot" },
       cmdline = {},
       providers = {
+        lsp = {
+          name = "LSP",
+          module = "blink.cmp.sources.lsp",
+          kind = "LSP",
+          score_offset = 100,
+          async = true,
+        },
+        path = {
+          name = "path",
+          module = "blink.cmp.sources.path",
+          kind = "path",
+          score_offset = 100,
+          async = true,
+        },
+        snippets = {
+          name = "snippets",
+          module = "blink.cmp.sources.snippets",
+          kind = "Snippets",
+          score_offset = 60,
+          async = true,
+        },
+        buffer = {
+          name = "buffer",
+          module = "blink.cmp.sources.buffer",
+          kind = "Buffer",
+          score_offset = 60,
+          async = true,
+        },
         copilot = {
           name = "copilot",
           module = "blink-cmp-copilot",
           kind = "Copilot",
-          score_offset = 100,
+          score_offset = 80,
           async = true,
         },
       },
