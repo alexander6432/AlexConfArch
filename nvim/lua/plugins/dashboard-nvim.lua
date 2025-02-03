@@ -6,6 +6,9 @@ return {
         enabled = true,
       },
     },
+    keys = {
+      { "<leader>ds", "<Cmd>Dashboard<CR>", desc = "Dashboard" },
+    },
   },
   {
     "nvimdev/dashboard-nvim",
